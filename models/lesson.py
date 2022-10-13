@@ -4,6 +4,7 @@ from sqlalchemy.orm import relationship
 
 from models.database import Base
 
+# This file combines two models, student and group
 
 association_table = Table('association', Base.metadata,
                             Column('lesson_id', Integer, ForeignKey('lessons.id')),

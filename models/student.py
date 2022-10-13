@@ -3,6 +3,7 @@ from models.database import Base
 
 
 class Student(Base):
+    # This class creates a model in the database
     __tablename__ = 'student'
     
     id = Column(Integer, primary_key=True)

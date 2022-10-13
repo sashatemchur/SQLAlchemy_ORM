@@ -5,6 +5,7 @@ from models.database import Base
 
 
 class Group(Base):
+    # This class creates a model in the database
     __tablename__ = 'groups'
     
     id = Column(Integer, primary_key=True)
